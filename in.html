@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Motion Animation Portfolio</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+
+        .video-container {
+            margin: 20px 0;
+        }
+
+        .video-card {
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+
+        .video-card:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container mt-5">
+        <h2 class="mb-4">Motion Animation Portfolio</h2>
+
+        <div class="row video-container">
+
+            <!-- Video 1 -->
+            <div class="col-md-6 mb-4">
+                <div class="video-card">
+                    <video width="100%" height="315" poster="path_to_cover_image_1.jpg" controls>
+                        <source src="https://www.youtube.com/embed/VIDEO_ID_1" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+
+            <!-- Video 2 -->
+            <div class="col-md-6 mb-4">
+                <div class="video-card">
+                    <video width="100%" height="315" poster="path_to_cover_image_2.jpg" controls>
+                        <source src="https://www.youtube.com/embed/VIDEO_ID_2" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+
+            <!-- Repeat for other videos... -->
+
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
